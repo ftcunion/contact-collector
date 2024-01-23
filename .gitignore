@@ -1,48 +1,59 @@
-# Wordpress - ignore core, configuration, examples, uploads and logs.
-# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+###############################################################################
+## Windows
+###############################################################################
 
-# Core
-#
-# Note: if you want to stage/commit WP core files
-# you can delete this whole section/until Configuration.
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
 
-# Configuration
-wp-config.php
+# Dump file
+*.stackdump
 
-# Example themes
-/wp-content/themes/twenty*/
+# Folder config file
+[Dd]esktop.ini
 
-# Example plugin
-/wp-content/plugins/hello.php
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Uploads
-/wp-content/uploads/
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
 
-# Log files
-*.log
+# Windows shortcuts
+*.lnk
 
-# htaccess
-/.htaccess
+###############################################################################
+## macOS
+###############################################################################
 
-# All plugins
-#
-# Note: If you wish to whitelist plugins,
-# uncomment the next line
-#/wp-content/plugins
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# All themes
-#
-# Note: If you wish to whitelist themes,
-# uncomment the next line
-#/wp-content/themes
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
