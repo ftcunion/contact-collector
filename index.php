@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST["name"]) && !empty($_
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Send Numbers</title>
+        <title>Number drop</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     </head>
 
@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST["name"]) && !empty($_
         <div class="d-flex h-100 w-100">
             <div class="d-flex flex-column justify-content-center mx-auto">
                 <div class="rounded border shadow p-4">
-                    <h1>Integer drop</h1>
+                    <h1>Number drop</h1>
                     <form action="" method="post" enctype="multipart/form-data" accept-charset="utf-8">
                         <div class="mb-3">
                             <label for="name" class="form-label">Name:</label>
