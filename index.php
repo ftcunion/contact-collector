@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST["name"]) && !empty($_POST["number"])) {
     # append the received number to the file
-    file_put_contents("numbers", $_POST['name'] . "\t" . $_POST['number'] . "\n", FILE_APPEND);
+    file_put_contents("numbers", $_POST['name'] . "\t" . $_POST['number'] . "\n", FILE_APPEND | LOCK_EX);
 ?>
     <!doctype html>
     <html lang="en">
