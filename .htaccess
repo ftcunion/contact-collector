@@ -1,4 +1,0 @@
-<Files numbers>
-    # Deny access to the numbers file
-    Require all denied
-</Files>
